@@ -20,6 +20,7 @@ public class PracticeProblem {
 		Scanner in = new Scanner (System.in);
 		System.out.print("In: ");
 		int a = in.nextInt();
+		System.out.print("In: ");
 		int b = in.nextInt();
 		in.nextLine();
 		System.out.println(a/b);
@@ -37,7 +38,7 @@ public class PracticeProblem {
 	public static void q4() {
 		Scanner in = new Scanner (System.in);
 		System.out.print("In: ");
-		System.out.println(in.nextInt() * 5));
+		System.out.println(in.nextInt() * 5);
 		in.nextLine();
 		in.close();
 	}
@@ -45,7 +46,7 @@ public class PracticeProblem {
 	public static void q5() {
 		Scanner in = new Scanner (System.in);
 		System.out.print("In: ");
-		System.out.println(in.nextBoolean());
+		System.out.println(in.nextBoolean() + " is a boolean");
 		in.nextLine();
 		in.close();
 	}
@@ -53,7 +54,7 @@ public class PracticeProblem {
 	public static void q6() {
 		Scanner in = new Scanner (System.in);
 		System.out.print("In: ");
-		System.out.println(in.nextDouble());
+		System.out.println((in.nextDouble() - 3.2));
 		in.nextLine();
 		in.close();
 	}
