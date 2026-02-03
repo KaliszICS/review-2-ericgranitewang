@@ -20,6 +20,7 @@ public class PracticeProblem {
 		Scanner in = new Scanner (System.in);
 		System.out.print("In: ");
 		int a = in.nextInt();
+		in.nextLine();
 		System.out.print("In: ");
 		int b = in.nextInt();
 		in.nextLine();
